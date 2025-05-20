@@ -1,4 +1,3 @@
-LICENSE
 setup.py
 pyClarion/__init__.py
 pyClarion/dev.py
