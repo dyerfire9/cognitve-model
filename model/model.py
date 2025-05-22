@@ -10,4 +10,41 @@ import random
 import io
 import matplotlib.pyplot as plt
 
-print('Test')
+def build_agent(stimuli_features, action_config, rules_path=None, use_rules=True):
+    """
+    Builds a Clarion agent with optional explicit rules.
+    """
+    with cl.Structure("agent") as agent:
+        cl.Module("input", cl.Receptors(stimuli_features))
+        cl.Module("params", cl.Repeat(), ["params"])
+        cl.Module("null", cl.Repeat(), ["null"])
+        with cl.Structure("acs"):
+            cl.Module("bi", cl.CAM(), ["../input"])
+            cl.Module("bu", cl.BottomUp(), ["fr_store#0", "fr_store#1", "fr_store#2", "bi"])
+            cl.Module("fr", cl.ActionRules(), ["../params", "fr_store#3", "fr_store#4", "bu"])
+            cl.Module("td", cl.TopDown(), ["fr_store#0", "fr_store#1", "fr#0"])
+            cl.Module("bo", cl.CAM(), ["td"])
+            cl.Module("act", cl.ActionSampler(), ["../params", "bo"], ["../act#cmds"])
+            cl.Module("fr_store", cl.Store(), ["../params", "../null", "../null", "../null"])
+        cl.Module("act", cl.Actions(action_config), ["acs/act#0"])
+
+    # Parameters for rule selection and action choice
+    agent["params"].output = cl.NumDict({
+        cl.feature("acs/fr#temp"): 0.01,
+        cl.feature("acs/act#temp"): 0.01
+    })
+
+    # Leave rule loading for later (will add this next)
+    return agent
+
+def main():
+    print("Starting simulation: Explicit condition (partial setup)")
+    letters = ["A", "B", "C"]
+    stimuli_features = [f"letter-{s}" for s in letters]
+    action_config = {"type": [f"press_{s.lower()}" for s in letters]}
+
+    # Build the agent (rules_path and rule logic to be added later)
+    agent = build_agent(stimuli_features, action_config, use_rules=True)
+
+if __name__ == "__main__":
+    main()
