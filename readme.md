@@ -15,6 +15,6 @@ The Model folder contains the coded model.
  
 # Progress
 - [x] Clarion agent with explicit knowledge
-- [ ] Implicit learning system
+- [ ] Implicit learning system - Implemented and tested logic of implicit learning system
 - [ ] Accuracy tracking over trials
 - [ ] Learning curve visualization 
