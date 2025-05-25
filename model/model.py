@@ -38,13 +38,16 @@ def build_agent(stimuli_features, action_config, rules_path=None, use_rules=True
     return agent
 
 def main():
-    print("Starting simulation: Explicit condition (partial setup)")
     letters = ["A", "B", "C"]
     stimuli_features = [f"letter-{s}" for s in letters]
     action_config = {"type": [f"press_{s.lower()}" for s in letters]}
-
-    # Build the agent (rules_path and rule logic to be added later)
+    
+    print("Running typing task with prior knowledge (explicit rules)...")
     agent = build_agent(stimuli_features, action_config, use_rules=True)
-
+    
+    acc_record, correct_total = run_typing_task(agent, stimuli_features, trials=150)
+    
+    print(f"Final Accuracy: {correct_total / 150:.2%}")
+    
 if __name__ == "__main__":
     main()
