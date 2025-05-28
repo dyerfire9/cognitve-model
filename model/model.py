@@ -104,6 +104,11 @@ def build_agent(stimuli_features, action_config, rules_path=None, use_rules=True
             cl.load(io.StringIO(rules_ccml), agent)
     # If use_rules is False, we do not load any explicit knowledge (start from scratch)
     return agent
+
+# Simulation Function
+def run_typing_task():
+    print('test')
+
 def main():
     letters = ["A", "B", "C"]
     stimuli_features = [f"letter-{s}" for s in letters]
