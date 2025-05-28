@@ -107,6 +107,15 @@ def build_agent(stimuli_features, action_config, rules_path=None, use_rules=True
 
 # Simulation Function
 def run_typing_task():
+    """
+    Run a typing task simulation with the given agent.
+    :param agent: the Clarion agent (with or without prior rules).
+    :param stimuli_list: list of stimulus identifiers (e.g., ["letter-A", "letter-B", "letter-C"]).
+    :param trials: number of trials to simulate.
+    :param learn: if True, enable trial-and-error learning (for implicit condition).
+    :param error_threshold: number of errors on a letter before adding an explicit rule (implicit learning).
+    :return: (accuracy_record, correct_count) over the trials.
+    """
     print('test')
 
 def main():
