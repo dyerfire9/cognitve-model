@@ -116,7 +116,61 @@ def run_typing_task():
     :param error_threshold: number of errors on a letter before adding an explicit rule (implicit learning).
     :return: (accuracy_record, correct_count) over the trials.
     """
-    print('test')
+    input_module = agent["input"]       # reference to input module
+    action_module = agent["act"]       # reference to action (output) module
+    correct_count = 0
+    accuracy_record = []
+    # Dictionary to count errors per stimulus (used only if learn=True)
+    error_count = {s: 0 for s in ["A", "B", "C"]}
+    
+    for i in range(trials):
+        # 1. Present a random letter stimulus
+        stimulus_feature = random.choice(stimuli_list)     # e.g., "letter-A"
+        input_module.process.stimulate([stimulus_feature]) # activate the input for that letter
+
+        # 2. Advance the agent one decision step
+        agent.step()
+
+        # 3. Observe the agent's chosen action (chunk with highest activation)
+        if action_module.output:
+            chosen_action = max(action_module.output, key=action_module.output.get)
+        else:
+            chosen_action = cl.chunk("no_action")  # Placeholder chunk
+        # Determine the correct expected action chunk for this stimulus
+        letter = stimulus_feature.split("-")[1]            # get "A", "B", or "C"
+        correct_action_chunk = cl.feature("act#type", f"press_{letter.lower()}") # e.g., cl.chunk('press_a')
+        # Check if the agent's response was correct
+        is_correct = (chosen_action == correct_action_chunk)
+        correct_count += int(is_correct)
+        
+        # 4. Provide feedback and (if implicit learning) update knowledge
+        if learn:
+            if not is_correct:
+                # Increment error count for this letter stimulus
+                error_count[letter] += 1
+                # If errors reach threshold for this letter, add an explicit rule for it
+                if error_count[letter] == error_threshold:
+                    # Construct a CCML rule to map this letter to the correct action
+                    rule_ccml = f"""store acs/fr_store:
+    ruleset learned:
+        rule:
+            conc:
+                act#cmd-type press_{letter.lower()}
+            cond:
+                input#letter-{letter}
+"""
+                    cl.load(io.StringIO(rule_ccml), agent)
+                    # After this, the agent has effectively learned the rule for this letter
+                    # (future responses for this letter will likely be correct)
+        
+        # Record running accuracy up to this trial
+        accuracy = correct_count / (i + 1)
+        accuracy_record.append(accuracy)
+        # Optionally print progress every 50 trials or at the end
+        if (i + 1) % 50 == 0 or i == trials - 1:
+            print(f"Trial {i+1:3d}: Stimulus = {stimulus_feature}, Chosen Action = {chosen_action}, ",
+                  f"Correct = {is_correct}, Accuracy = {accuracy:.2%}")
+    return accuracy_record, correct_count
 
 def main():
     letters = ["A", "B", "C"]
