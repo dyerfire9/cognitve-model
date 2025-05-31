@@ -172,18 +172,33 @@ def run_typing_task(agent, stimuli_list, trials=300, learn=False, error_threshol
                   f"Correct = {is_correct}, Accuracy = {accuracy:.2%}")
     return accuracy_record, correct_count
 
-
+# Main Execution for Both Conditions
 def main():
+    # Define the task stimuli and actions
     letters = ["A", "B", "C"]
-    stimuli_features = [f"letter-{s}" for s in letters]
-    action_config = {"type": [f"press_{s.lower()}" for s in letters]}
+    stimuli_features = [f"letter-{s}" for s in letters]         # e.g., ["letter-A", "letter-B", ...]
+    action_config = {"type": [f"press_{s.lower()}" for s in letters]}  # {"type": ["press_a","press_b","press_c"]}
+    total_trials = 300
     
-    print("Running typing task with prior knowledge (explicit rules)...")
-    agent = build_agent(stimuli_features, action_config, use_rules=True)
+    # Condition 1: With prior explicit knowledge (rules given)
+    print("\n===== CONDITION 1: EXPLICIT SYSTEM (With Prior Knowledge) =====")
+    agent_explicit = build_agent(stimuli_features, action_config, rules_path="typing_rules.ccml", use_rules=True)
+    acc_with, corr_with = run_typing_task(agent_explicit, stimuli_features, trials=total_trials, learn=False)
     
-    acc_record, correct_total = run_typing_task(agent, stimuli_features, trials=150)
+    # Condition 2: Without prior knowledge (implicit learning only)
+    print("\n===== CONDITION 2: IMPLICIT SYSTEM (No Prior Knowledge) =====")
+    agent_implicit = build_agent(stimuli_features, action_config, use_rules=False)
+    acc_without, corr_without = run_typing_task(agent_implicit, stimuli_features, trials=total_trials, learn=True, error_threshold=5)
     
-    print(f"Final Accuracy: {correct_total / 150:.2%}")
-
+    # Calculate performance metrics
+    # Trials to reach 90% accuracy (if never reached, use total_trials)
+    trials_to_90_with = next((i+1 for i, acc in enumerate(acc_with) if acc >= 0.90), total_trials)
+    trials_to_90_without = next((i+1 for i, acc in enumerate(acc_without) if acc >= 0.90), total_trials)
+    # Total errors made (out of total_trials)
+    errors_with = total_trials - corr_with
+    errors_without = total_trials - corr_without
+    print(f"\nResults with prior knowledge: reached 90% accuracy by trial {trials_to_90_with}, total errors = {errors_with}.")
+    print(f"Results without prior knowledge: reached 90% accuracy by trial {trials_to_90_without}, total errors = {errors_without}.")
+    
 if __name__ == "__main__":
     main()
