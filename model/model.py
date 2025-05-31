@@ -106,7 +106,8 @@ def build_agent(stimuli_features, action_config, rules_path=None, use_rules=True
     return agent
 
 # Simulation Function
-def run_typing_task():
+# Simulation Function
+def run_typing_task(agent, stimuli_list, trials=300, learn=False, error_threshold=5):
     """
     Run a typing task simulation with the given agent.
     :param agent: the Clarion agent (with or without prior rules).
@@ -171,6 +172,7 @@ def run_typing_task():
             print(f"Trial {i+1:3d}: Stimulus = {stimulus_feature}, Chosen Action = {chosen_action}, ",
                   f"Correct = {is_correct}, Accuracy = {accuracy:.2%}")
     return accuracy_record, correct_count
+
 
 def main():
     letters = ["A", "B", "C"]
