@@ -1,4 +1,4 @@
-# Clarion Typing Simulation
+# Clarion Cognitive Model Simulation
 
 This is a cognitive simulation project that models skill acquisition in a typing task using the Clarion cognitive architecture. It compares two learning approaches: one with symbolic prior knowledge and one based on implicit trial-and-error learning.
 
@@ -19,7 +19,7 @@ In a terminal, navigate to the pyClarion folder then:
 
 1. Clone the repository
 
-git clone https://github.com/YOUR_USERNAME/clarion-typing-simulation.git
+git clone https://github.com/dyerfire9/cognitve-model.git
 cd clarion-typing-simulation
 
 2. Install as a regular library, run:
