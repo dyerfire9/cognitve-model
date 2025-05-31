@@ -20,7 +20,7 @@ In a terminal, navigate to the pyClarion folder then:
 1. Clone the repository
 
 git clone https://github.com/dyerfire9/cognitve-model.git
-cd clarion-typing-simulation
+cd cognitve-model
 
 2. Install as a regular library, run:
 pip install .

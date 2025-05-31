@@ -9,6 +9,7 @@ import pyClarion as cl
 import random
 import io
 import matplotlib.pyplot as plt
+import pandas
 
 # Agent Construction Function
 def build_agent(stimuli_features, action_config, rules_path=None, use_rules=True):
@@ -199,6 +200,6 @@ def main():
     errors_without = total_trials - corr_without
     print(f"\nResults with prior knowledge: reached 90% accuracy by trial {trials_to_90_with}, total errors = {errors_with}.")
     print(f"Results without prior knowledge: reached 90% accuracy by trial {trials_to_90_without}, total errors = {errors_without}.")
-    
+
 if __name__ == "__main__":
     main()
