@@ -106,7 +106,6 @@ def build_agent(stimuli_features, action_config, rules_path=None, use_rules=True
     return agent
 
 # Simulation Function
-# Simulation Function
 def run_typing_task(agent, stimuli_list, trials=300, learn=False, error_threshold=5):
     """
     Run a typing task simulation with the given agent.
