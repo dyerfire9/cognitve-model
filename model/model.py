@@ -201,5 +201,18 @@ def main():
     print(f"\nResults with prior knowledge: reached 90% accuracy by trial {trials_to_90_with}, total errors = {errors_with}.")
     print(f"Results without prior knowledge: reached 90% accuracy by trial {trials_to_90_without}, total errors = {errors_without}.")
 
+    # Plot learning curves for accuracy over time
+    plt.figure(figsize=(6,4))
+    plt.plot(acc_with, label="With Prior Knowledge", color="green")
+    plt.plot(acc_without, label="Without Prior Knowledge", color="red")
+    plt.title("Typing Task Accuracy Over 300 Trials")
+    plt.xlabel("Trial")
+    plt.ylabel("Accuracy")
+    plt.ylim(0, 1.05)
+    plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
+    
 if __name__ == "__main__":
     main()
