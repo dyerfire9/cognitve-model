@@ -10,6 +10,7 @@ import random
 import io
 import matplotlib.pyplot as plt
 import pandas
+import os
 
 # Agent Construction Function
 def build_agent(stimuli_features, action_config, rules_path=None, use_rules=True):
@@ -121,6 +122,7 @@ def run_typing_task(agent, stimuli_list, trials=300, learn=False, error_threshol
     action_module = agent["act"]       # reference to action (output) module
     correct_count = 0
     accuracy_record = []
+    trial_log = []
     # Dictionary to count errors per stimulus (used only if learn=True)
     error_count = {s: 0 for s in ["A", "B", "C"]}
     
@@ -171,6 +173,20 @@ def run_typing_task(agent, stimuli_list, trials=300, learn=False, error_threshol
         if (i + 1) % 50 == 0 or i == trials - 1:
             print(f"Trial {i+1:3d}: Stimulus = {stimulus_feature}, Chosen Action = {chosen_action}, ",
                   f"Correct = {is_correct}, Accuracy = {accuracy:.2%}")
+        
+        # Gather trial data    
+        trial_log.append({
+            "trial": i + 1,
+            "stimulus": stimulus_feature,
+            "chosen_action": str(chosen_action),
+            "correct_action": str(correct_action_chunk),
+            "is_correct": is_correct,
+            "accuracy": accuracy
+        })
+
+    os.makedirs("output", exist_ok=True)
+    df = pandas.DataFrame(trial_log)
+    df.to_csv(f"output/{'explicit' if not learn else 'implicit'}_trial_log.csv", index=False)
     return accuracy_record, correct_count
 
 # Main Execution for Both Conditions

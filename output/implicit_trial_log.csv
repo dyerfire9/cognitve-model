@@ -1,0 +1,301 @@
+trial,stimulus,chosen_action,correct_action,is_correct,accuracy
+1,letter-C,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_c', l=0)",False,0.0
+2,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.0
+3,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.3333333333333333
+4,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.5
+5,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.4
+6,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.3333333333333333
+7,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.2857142857142857
+8,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.375
+9,letter-C,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_c', l=0)",False,0.3333333333333333
+10,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.3
+11,letter-B,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.2727272727272727
+12,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.3333333333333333
+13,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.38461538461538464
+14,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.35714285714285715
+15,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.3333333333333333
+16,letter-A,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.3125
+17,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.35294117647058826
+18,letter-A,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.3333333333333333
+19,letter-C,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_c', l=0)",False,0.3157894736842105
+20,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.35
+21,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.3333333333333333
+22,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.36363636363636365
+23,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.34782608695652173
+24,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.3333333333333333
+25,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.36
+26,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.34615384615384615
+27,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.37037037037037035
+28,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.39285714285714285
+29,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.41379310344827586
+30,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.43333333333333335
+31,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.45161290322580644
+32,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.46875
+33,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.45454545454545453
+34,letter-C,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_c', l=0)",False,0.4411764705882353
+35,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.45714285714285713
+36,letter-C,chunk(id='no_action'),"feature(d='act#type', v='press_c', l=0)",False,0.4444444444444444
+37,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.43243243243243246
+38,letter-B,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.42105263157894735
+39,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.4358974358974359
+40,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.425
+41,letter-B,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.4146341463414634
+42,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.42857142857142855
+43,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.4418604651162791
+44,letter-A,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.4318181818181818
+45,letter-B,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.4222222222222222
+46,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.43478260869565216
+47,letter-B,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.425531914893617
+48,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.4166666666666667
+49,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.42857142857142855
+50,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.44
+51,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.45098039215686275
+52,letter-B,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.4423076923076923
+53,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.4339622641509434
+54,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.42592592592592593
+55,letter-B,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.41818181818181815
+56,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.42857142857142855
+57,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.43859649122807015
+58,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.4482758620689655
+59,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.4576271186440678
+60,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.4666666666666667
+61,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.47540983606557374
+62,letter-B,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.46774193548387094
+63,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.47619047619047616
+64,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.484375
+65,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.49230769230769234
+66,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5
+67,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5074626865671642
+68,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.5147058823529411
+69,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5217391304347826
+70,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5142857142857142
+71,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.5211267605633803
+72,letter-A,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5138888888888888
+73,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5205479452054794
+74,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5135135135135135
+75,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.5066666666666667
+76,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5
+77,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5064935064935064
+78,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.5128205128205128
+79,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5189873417721519
+80,letter-A,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5125
+81,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5185185185185185
+82,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.524390243902439
+83,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5180722891566265
+84,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.5119047619047619
+85,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.5176470588235295
+86,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.5232558139534884
+87,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5172413793103449
+88,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5113636363636364
+89,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5168539325842697
+90,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5222222222222223
+91,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.5274725274725275
+92,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.5217391304347826
+93,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.5161290322580645
+94,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.5212765957446809
+95,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5263157894736842
+96,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5208333333333334
+97,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.5154639175257731
+98,letter-A,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5102040816326531
+99,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.5151515151515151
+100,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.51
+101,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.504950495049505
+102,letter-B,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5
+103,letter-A,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.49514563106796117
+104,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.5
+105,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.49523809523809526
+106,letter-B,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.49056603773584906
+107,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.4953271028037383
+108,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.5
+109,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5045871559633027
+110,letter-A,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5
+111,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.4954954954954955
+112,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.5
+113,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.49557522123893805
+114,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.5
+115,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.4956521739130435
+116,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5
+117,letter-B,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.49572649572649574
+118,letter-A,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.4915254237288136
+119,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.4957983193277311
+120,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.49166666666666664
+121,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.48760330578512395
+122,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.48360655737704916
+123,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.4878048780487805
+124,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.49193548387096775
+125,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.488
+126,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.48412698412698413
+127,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.48031496062992124
+128,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.484375
+129,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.4806201550387597
+130,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.4846153846153846
+131,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.48091603053435117
+132,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.48484848484848486
+133,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.48872180451127817
+134,letter-B,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.48507462686567165
+135,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.4888888888888889
+136,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.49264705882352944
+137,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.48905109489051096
+138,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.4927536231884058
+139,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.4892086330935252
+140,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.4928571428571429
+141,letter-B,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.48936170212765956
+142,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.49295774647887325
+143,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.4965034965034965
+144,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5
+145,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.503448275862069
+146,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.5
+147,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5034013605442177
+148,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5
+149,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.4966442953020134
+150,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.49333333333333335
+151,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.4966887417218543
+152,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.4934210526315789
+153,letter-B,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.49019607843137253
+154,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.4935064935064935
+155,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.49032258064516127
+156,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.4935897435897436
+157,letter-A,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.49044585987261147
+158,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.4936708860759494
+159,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.49056603773584906
+160,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.49375
+161,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.4968944099378882
+162,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.49382716049382713
+163,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.49079754601226994
+164,letter-A,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.4878048780487805
+165,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.4909090909090909
+166,letter-A,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.4879518072289157
+167,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.49101796407185627
+168,letter-A,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.4880952380952381
+169,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.48520710059171596
+170,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.48823529411764705
+171,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.49122807017543857
+172,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.4941860465116279
+173,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.49710982658959535
+174,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.4942528735632184
+175,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.49714285714285716
+176,letter-B,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.4943181818181818
+177,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.4971751412429379
+178,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5
+179,letter-B,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.4972067039106145
+180,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5
+181,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5027624309392266
+182,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5054945054945055
+183,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5081967213114754
+184,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.5108695652173914
+185,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5081081081081081
+186,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.510752688172043
+187,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5133689839572193
+188,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5159574468085106
+189,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5185185185185185
+190,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5210526315789473
+191,letter-A,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.518324607329843
+192,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5208333333333334
+193,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5233160621761658
+194,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.520618556701031
+195,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.517948717948718
+196,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5204081632653061
+197,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5228426395939086
+198,letter-B,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5202020202020202
+199,letter-A,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5175879396984925
+200,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.52
+201,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5223880597014925
+202,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.5247524752475248
+203,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.5221674876847291
+204,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5196078431372549
+205,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5219512195121951
+206,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5242718446601942
+207,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5265700483091788
+208,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5288461538461539
+209,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.5263157894736842
+210,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.5238095238095238
+211,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5213270142180095
+212,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5235849056603774
+213,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5258215962441315
+214,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5280373831775701
+215,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5255813953488372
+216,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.5277777777777778
+217,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5299539170506913
+218,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5275229357798165
+219,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.5296803652968036
+220,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.5318181818181819
+221,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.5339366515837104
+222,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.536036036036036
+223,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.5336322869955157
+224,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.53125
+225,letter-B,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5288888888888889
+226,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5265486725663717
+227,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.5242290748898678
+228,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5219298245614035
+229,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5240174672489083
+230,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5260869565217391
+231,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5238095238095238
+232,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5258620689655172
+233,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5278969957081545
+234,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5299145299145299
+235,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5319148936170213
+236,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5296610169491526
+237,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5316455696202531
+238,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5336134453781513
+239,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5313807531380753
+240,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5333333333333333
+241,letter-A,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5311203319502075
+242,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.5330578512396694
+243,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5308641975308642
+244,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5286885245901639
+245,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5306122448979592
+246,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.532520325203252
+247,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.5303643724696356
+248,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.532258064516129
+249,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.5301204819277109
+250,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.532
+251,letter-A,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5298804780876494
+252,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5277777777777778
+253,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.5296442687747036
+254,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5275590551181102
+255,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.5254901960784314
+256,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.52734375
+257,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.5291828793774319
+258,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.5310077519379846
+259,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5328185328185329
+260,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5346153846153846
+261,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.5325670498084292
+262,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5305343511450382
+263,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.5285171102661597
+264,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5265151515151515
+265,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.5283018867924528
+266,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5300751879699248
+267,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.5280898876404494
+268,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5261194029850746
+269,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5241635687732342
+270,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5259259259259259
+271,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.5239852398523985
+272,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5220588235294118
+273,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.5201465201465202
+274,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.5182481751824818
+275,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5163636363636364
+276,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5181159420289855
+277,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.51985559566787
+278,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5179856115107914
+279,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.5161290322580645
+280,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.5178571428571429
+281,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5160142348754448
+282,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5177304964539007
+283,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.519434628975265
+284,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5211267605633803
+285,letter-A,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.519298245614035
+286,letter-A,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_a', l=0)",True,0.5209790209790209
+287,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5226480836236934
+288,letter-A,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5208333333333334
+289,letter-B,"feature(d='act#type', v='press_a', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5190311418685121
+290,letter-A,chunk(id='no_action'),"feature(d='act#type', v='press_a', l=0)",False,0.5172413793103449
+291,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5154639175257731
+292,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5136986301369864
+293,letter-B,chunk(id='no_action'),"feature(d='act#type', v='press_b', l=0)",False,0.5119453924914675
+294,letter-A,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5102040816326531
+295,letter-B,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_b', l=0)",False,0.5084745762711864
+296,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5101351351351351
+297,letter-B,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_b', l=0)",True,0.5117845117845118
+298,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5134228187919463
+299,letter-C,"feature(d='act#type', v='press_c', l=0)","feature(d='act#type', v='press_c', l=0)",True,0.5150501672240803
+300,letter-A,"feature(d='act#type', v='press_b', l=0)","feature(d='act#type', v='press_a', l=0)",False,0.5133333333333333
