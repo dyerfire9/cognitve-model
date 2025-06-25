@@ -55,7 +55,7 @@ The Model folder contains the coded model.
 
 ## Author information
 Muhammad Abdul Mannan (corresponding author and repository maintainer) <br />
-Student - University of Toronto <br />
+Student - University of Toronto (UofT) <br />
 LinkedIn: www.linkedin.com/in/abdulmannancomp <br />
 Website:  https://dyerfire9.github.io/portfolio-site/ <br />
 Email: abdulmannancomp@gmail.com <br />
