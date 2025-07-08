@@ -50,7 +50,7 @@ The Model folder contains the coded model.
 - [x] Implicit learning system - Implemented and tested logic of implicit learning system
 - [x] Accuracy tracking over trials
 - [x] Learning curve visualization & Graphs
-- [ ] In Depth Analysis & Report
+- [x] In Depth Analysis & Report
 
 
 ## Author information
